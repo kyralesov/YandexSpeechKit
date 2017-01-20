@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143F49D61E329E28006E1D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49D51E329E28006E1D0D /* AppDelegate.swift */; };
+		143F49D81E329E28006E1D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49D71E329E28006E1D0D /* ViewController.swift */; };
+		143F49DB1E329E28006E1D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143F49D91E329E28006E1D0D /* Main.storyboard */; };
+		143F49DD1E329E28006E1D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143F49DC1E329E28006E1D0D /* Assets.xcassets */; };
+		143F49E01E329E28006E1D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143F49DE1E329E28006E1D0D /* LaunchScreen.storyboard */; };
+		143F49EB1E329E28006E1D0D /* YandexSpeechKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49EA1E329E28006E1D0D /* YandexSpeechKitTests.swift */; };
+		143F49F61E329E28006E1D0D /* YandexSpeechKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49F51E329E28006E1D0D /* YandexSpeechKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143F49E71E329E28006E1D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143F49CA1E329E28006E1D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143F49D11E329E28006E1D0D;
+			remoteInfo = YandexSpeechKit;
+		};
+		143F49F21E329E28006E1D0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143F49CA1E329E28006E1D0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143F49D11E329E28006E1D0D;
+			remoteInfo = YandexSpeechKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143F49D21E329E28006E1D0D /* YandexSpeechKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexSpeechKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F49D51E329E28006E1D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		143F49D71E329E28006E1D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		143F49DA1E329E28006E1D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143F49DC1E329E28006E1D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		143F49DF1E329E28006E1D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		143F49E11E329E28006E1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143F49E61E329E28006E1D0D /* YandexSpeechKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexSpeechKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F49EA1E329E28006E1D0D /* YandexSpeechKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexSpeechKitTests.swift; sourceTree = "<group>"; };
+		143F49EC1E329E28006E1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143F49F11E329E28006E1D0D /* YandexSpeechKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexSpeechKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F49F51E329E28006E1D0D /* YandexSpeechKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexSpeechKitUITests.swift; sourceTree = "<group>"; };
+		143F49F71E329E28006E1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143F49CF1E329E28006E1D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F49E31E329E28006E1D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F49EE1E329E28006E1D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143F49C91E329E28006E1D0D = {
+			isa = PBXGroup;
+			children = (
+				143F49D41E329E28006E1D0D /* YandexSpeechKit */,
+				143F49E91E329E28006E1D0D /* YandexSpeechKitTests */,
+				143F49F41E329E28006E1D0D /* YandexSpeechKitUITests */,
+				143F49D31E329E28006E1D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		143F49D31E329E28006E1D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143F49D21E329E28006E1D0D /* YandexSpeechKit.app */,
+				143F49E61E329E28006E1D0D /* YandexSpeechKitTests.xctest */,
+				143F49F11E329E28006E1D0D /* YandexSpeechKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143F49D41E329E28006E1D0D /* YandexSpeechKit */ = {
+			isa = PBXGroup;
+			children = (
+				143F49D51E329E28006E1D0D /* AppDelegate.swift */,
+				143F49D71E329E28006E1D0D /* ViewController.swift */,
+				143F49D91E329E28006E1D0D /* Main.storyboard */,
+				143F49DC1E329E28006E1D0D /* Assets.xcassets */,
+				143F49DE1E329E28006E1D0D /* LaunchScreen.storyboard */,
+				143F49E11E329E28006E1D0D /* Info.plist */,
+			);
+			path = YandexSpeechKit;
+			sourceTree = "<group>";
+		};
+		143F49E91E329E28006E1D0D /* YandexSpeechKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				143F49EA1E329E28006E1D0D /* YandexSpeechKitTests.swift */,
+				143F49EC1E329E28006E1D0D /* Info.plist */,
+			);
+			path = YandexSpeechKitTests;
+			sourceTree = "<group>";
+		};
+		143F49F41E329E28006E1D0D /* YandexSpeechKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				143F49F51E329E28006E1D0D /* YandexSpeechKitUITests.swift */,
+				143F49F71E329E28006E1D0D /* Info.plist */,
+			);
+			path = YandexSpeechKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		143F49D11E329E28006E1D0D /* YandexSpeechKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143F49FA1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKit" */;
+			buildPhases = (
+				143F49CE1E329E28006E1D0D /* Sources */,
+				143F49CF1E329E28006E1D0D /* Frameworks */,
+				143F49D01E329E28006E1D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexSpeechKit;
+			productName = YandexSpeechKit;
+			productReference = 143F49D21E329E28006E1D0D /* YandexSpeechKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		143F49E51E329E28006E1D0D /* YandexSpeechKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143F49FD1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitTests" */;
+			buildPhases = (
+				143F49E21E329E28006E1D0D /* Sources */,
+				143F49E31E329E28006E1D0D /* Frameworks */,
+				143F49E41E329E28006E1D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143F49E81E329E28006E1D0D /* PBXTargetDependency */,
+			);
+			name = YandexSpeechKitTests;
+			productName = YandexSpeechKitTests;
+			productReference = 143F49E61E329E28006E1D0D /* YandexSpeechKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		143F49F01E329E28006E1D0D /* YandexSpeechKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143F4A001E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitUITests" */;
+			buildPhases = (
+				143F49ED1E329E28006E1D0D /* Sources */,
+				143F49EE1E329E28006E1D0D /* Frameworks */,
+				143F49EF1E329E28006E1D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143F49F31E329E28006E1D0D /* PBXTargetDependency */,
+			);
+			name = YandexSpeechKitUITests;
+			productName = YandexSpeechKitUITests;
+			productReference = 143F49F11E329E28006E1D0D /* YandexSpeechKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143F49CA1E329E28006E1D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eugene Kurilenko";
+				TargetAttributes = {
+					143F49D11E329E28006E1D0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GT4WSWF94H;
+						ProvisioningStyle = Automatic;
+					};
+					143F49E51E329E28006E1D0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GT4WSWF94H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 143F49D11E329E28006E1D0D;
+					};
+					143F49F01E329E28006E1D0D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GT4WSWF94H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 143F49D11E329E28006E1D0D;
+					};
+				};
+			};
+			buildConfigurationList = 143F49CD1E329E28006E1D0D /* Build configuration list for PBXProject "YandexSpeechKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143F49C91E329E28006E1D0D;
+			productRefGroup = 143F49D31E329E28006E1D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143F49D11E329E28006E1D0D /* YandexSpeechKit */,
+				143F49E51E329E28006E1D0D /* YandexSpeechKitTests */,
+				143F49F01E329E28006E1D0D /* YandexSpeechKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143F49D01E329E28006E1D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143F49E01E329E28006E1D0D /* LaunchScreen.storyboard in Resources */,
+				143F49DD1E329E28006E1D0D /* Assets.xcassets in Resources */,
+				143F49DB1E329E28006E1D0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F49E41E329E28006E1D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F49EF1E329E28006E1D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143F49CE1E329E28006E1D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143F49D81E329E28006E1D0D /* ViewController.swift in Sources */,
+				143F49D61E329E28006E1D0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F49E21E329E28006E1D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143F49EB1E329E28006E1D0D /* YandexSpeechKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143F49ED1E329E28006E1D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143F49F61E329E28006E1D0D /* YandexSpeechKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143F49E81E329E28006E1D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143F49D11E329E28006E1D0D /* YandexSpeechKit */;
+			targetProxy = 143F49E71E329E28006E1D0D /* PBXContainerItemProxy */;
+		};
+		143F49F31E329E28006E1D0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143F49D11E329E28006E1D0D /* YandexSpeechKit */;
+			targetProxy = 143F49F21E329E28006E1D0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		143F49D91E329E28006E1D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143F49DA1E329E28006E1D0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		143F49DE1E329E28006E1D0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143F49DF1E329E28006E1D0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143F49F81E329E28006E1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		143F49F91E329E28006E1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143F49FB1E329E28006E1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = YandexSpeechKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		143F49FC1E329E28006E1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = YandexSpeechKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		143F49FE1E329E28006E1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = YandexSpeechKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YandexSpeechKit.app/YandexSpeechKit";
+			};
+			name = Debug;
+		};
+		143F49FF1E329E28006E1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = YandexSpeechKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YandexSpeechKit.app/YandexSpeechKit";
+			};
+			name = Release;
+		};
+		143F4A011E329E28006E1D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = YandexSpeechKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YandexSpeechKit;
+			};
+			name = Debug;
+		};
+		143F4A021E329E28006E1D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GT4WSWF94H;
+				INFOPLIST_FILE = YandexSpeechKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YandexSpeechKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143F49CD1E329E28006E1D0D /* Build configuration list for PBXProject "YandexSpeechKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143F49F81E329E28006E1D0D /* Debug */,
+				143F49F91E329E28006E1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143F49FA1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143F49FB1E329E28006E1D0D /* Debug */,
+				143F49FC1E329E28006E1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		143F49FD1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143F49FE1E329E28006E1D0D /* Debug */,
+				143F49FF1E329E28006E1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		143F4A001E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143F4A011E329E28006E1D0D /* Debug */,
+				143F4A021E329E28006E1D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143F49CA1E329E28006E1D0D /* Project object */;
+}
