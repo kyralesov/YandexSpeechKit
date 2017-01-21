@@ -1,0 +1,12 @@
+PODS:
+  - YandexSpeechKit (2.5.0)
+
+DEPENDENCIES:
+  - YandexSpeechKit
+
+SPEC CHECKSUMS:
+  YandexSpeechKit: 4c0ee53139175bebef965dfa858044dc7c14b0b9
+
+PODFILE CHECKSUM: c72db0cbd30766a820aea1233dcc155d471e9d02
+
+COCOAPODS: 1.2.0.beta.3

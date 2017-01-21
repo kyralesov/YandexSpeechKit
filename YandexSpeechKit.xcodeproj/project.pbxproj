@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		143F49D61E329E28006E1D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49D51E329E28006E1D0D /* AppDelegate.swift */; };
-		143F49D81E329E28006E1D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49D71E329E28006E1D0D /* ViewController.swift */; };
 		143F49DB1E329E28006E1D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143F49D91E329E28006E1D0D /* Main.storyboard */; };
 		143F49DD1E329E28006E1D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143F49DC1E329E28006E1D0D /* Assets.xcassets */; };
 		143F49E01E329E28006E1D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143F49DE1E329E28006E1D0D /* LaunchScreen.storyboard */; };
 		143F49EB1E329E28006E1D0D /* YandexSpeechKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49EA1E329E28006E1D0D /* YandexSpeechKitTests.swift */; };
 		143F49F61E329E28006E1D0D /* YandexSpeechKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F49F51E329E28006E1D0D /* YandexSpeechKitUITests.swift */; };
+		14A54F941E32A11100D74D76 /* YandexSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A54F931E32A11100D74D76 /* YandexSpeechService.swift */; };
+		14A54F971E32AA4D00D74D76 /* RecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A54F961E32AA4D00D74D76 /* RecognizerViewController.swift */; };
+		1EC6BAE9D28B51C1056EBBB5 /* Pods_YandexSpeechKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C67EE1965694BB6A155E4E /* Pods_YandexSpeechKitTests.framework */; };
+		3D15C24A4A8EB19CFCC2D2F9 /* Pods_YandexSpeechKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF9068681DFF25A3C4C74E3 /* Pods_YandexSpeechKitUITests.framework */; };
+		9D082EA9233FFF3060D2094E /* Pods_YandexSpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFDFC6F099111E507FFC702 /* Pods_YandexSpeechKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF9068681DFF25A3C4C74E3 /* Pods_YandexSpeechKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexSpeechKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F49D21E329E28006E1D0D /* YandexSpeechKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexSpeechKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F49D51E329E28006E1D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		143F49D71E329E28006E1D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		143F49DA1E329E28006E1D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		143F49DC1E329E28006E1D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143F49DF1E329E28006E1D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,17 @@
 		143F49F11E329E28006E1D0D /* YandexSpeechKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexSpeechKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143F49F51E329E28006E1D0D /* YandexSpeechKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexSpeechKitUITests.swift; sourceTree = "<group>"; };
 		143F49F71E329E28006E1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A54F931E32A11100D74D76 /* YandexSpeechService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexSpeechService.swift; sourceTree = "<group>"; };
+		14A54F951E32A40F00D74D76 /* YandexSpeechKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YandexSpeechKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		14A54F961E32AA4D00D74D76 /* RecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizerViewController.swift; sourceTree = "<group>"; };
+		6CE31AB4B946894F3ADC6989 /* Pods-YandexSpeechKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexSpeechKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexSpeechKitUITests/Pods-YandexSpeechKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C67EE1965694BB6A155E4E /* Pods_YandexSpeechKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexSpeechKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F937E07C3F770D6AF9CB87 /* Pods-YandexSpeechKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexSpeechKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexSpeechKit/Pods-YandexSpeechKit.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D2EA9C2E490F0CD7F74E7E /* Pods-YandexSpeechKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexSpeechKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexSpeechKitTests/Pods-YandexSpeechKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEFE99400EB3ADCC435E19B6 /* Pods-YandexSpeechKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexSpeechKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YandexSpeechKitTests/Pods-YandexSpeechKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBC4489BCC6E9AC21AFEA27B /* Pods-YandexSpeechKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexSpeechKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YandexSpeechKitUITests/Pods-YandexSpeechKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA2EC9BA500BC56540D07A2F /* Pods-YandexSpeechKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexSpeechKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YandexSpeechKit/Pods-YandexSpeechKit.release.xcconfig"; sourceTree = "<group>"; };
+		FCFDFC6F099111E507FFC702 /* Pods_YandexSpeechKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexSpeechKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D082EA9233FFF3060D2094E /* Pods_YandexSpeechKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC6BAE9D28B51C1056EBBB5 /* Pods_YandexSpeechKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D15C24A4A8EB19CFCC2D2F9 /* Pods_YandexSpeechKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				143F49E91E329E28006E1D0D /* YandexSpeechKitTests */,
 				143F49F41E329E28006E1D0D /* YandexSpeechKitUITests */,
 				143F49D31E329E28006E1D0D /* Products */,
+				7BD57120F181E918EA4B43FD /* Pods */,
+				ED750D7EA2E58E0A578101DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +117,10 @@
 		143F49D41E329E28006E1D0D /* YandexSpeechKit */ = {
 			isa = PBXGroup;
 			children = (
-				143F49D51E329E28006E1D0D /* AppDelegate.swift */,
-				143F49D71E329E28006E1D0D /* ViewController.swift */,
-				143F49D91E329E28006E1D0D /* Main.storyboard */,
-				143F49DC1E329E28006E1D0D /* Assets.xcassets */,
-				143F49DE1E329E28006E1D0D /* LaunchScreen.storyboard */,
-				143F49E11E329E28006E1D0D /* Info.plist */,
+				14A54F921E32A0E300D74D76 /* ViewControllers */,
+				14A54F911E32A0D700D74D76 /* Services */,
+				14A54F901E32A0B300D74D76 /* Layouts */,
+				14A54F8F1E32A08B00D74D76 /* Supporting Files */,
 			);
 			path = YandexSpeechKit;
 			sourceTree = "<group>";
@@ -125,6 +143,65 @@
 			path = YandexSpeechKitUITests;
 			sourceTree = "<group>";
 		};
+		14A54F8F1E32A08B00D74D76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				143F49D51E329E28006E1D0D /* AppDelegate.swift */,
+				143F49DC1E329E28006E1D0D /* Assets.xcassets */,
+				143F49E11E329E28006E1D0D /* Info.plist */,
+				14A54F951E32A40F00D74D76 /* YandexSpeechKit-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14A54F901E32A0B300D74D76 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				143F49D91E329E28006E1D0D /* Main.storyboard */,
+				143F49DE1E329E28006E1D0D /* LaunchScreen.storyboard */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		14A54F911E32A0D700D74D76 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14A54F931E32A11100D74D76 /* YandexSpeechService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		14A54F921E32A0E300D74D76 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14A54F961E32AA4D00D74D76 /* RecognizerViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7BD57120F181E918EA4B43FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F937E07C3F770D6AF9CB87 /* Pods-YandexSpeechKit.debug.xcconfig */,
+				EA2EC9BA500BC56540D07A2F /* Pods-YandexSpeechKit.release.xcconfig */,
+				C0D2EA9C2E490F0CD7F74E7E /* Pods-YandexSpeechKitTests.debug.xcconfig */,
+				CEFE99400EB3ADCC435E19B6 /* Pods-YandexSpeechKitTests.release.xcconfig */,
+				6CE31AB4B946894F3ADC6989 /* Pods-YandexSpeechKitUITests.debug.xcconfig */,
+				DBC4489BCC6E9AC21AFEA27B /* Pods-YandexSpeechKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED750D7EA2E58E0A578101DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDFC6F099111E507FFC702 /* Pods_YandexSpeechKit.framework */,
+				A8C67EE1965694BB6A155E4E /* Pods_YandexSpeechKitTests.framework */,
+				0AF9068681DFF25A3C4C74E3 /* Pods_YandexSpeechKitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143F49FA1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKit" */;
 			buildPhases = (
+				1DFECA9DF39D520D2A292DF7 /* [CP] Check Pods Manifest.lock */,
 				143F49CE1E329E28006E1D0D /* Sources */,
 				143F49CF1E329E28006E1D0D /* Frameworks */,
 				143F49D01E329E28006E1D0D /* Resources */,
+				D86B5CF4DFE967FE0D7A7273 /* [CP] Embed Pods Frameworks */,
+				061273F8B757B61523E814BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143F49FD1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitTests" */;
 			buildPhases = (
+				0194B37455B216148AF73EB5 /* [CP] Check Pods Manifest.lock */,
 				143F49E21E329E28006E1D0D /* Sources */,
 				143F49E31E329E28006E1D0D /* Frameworks */,
 				143F49E41E329E28006E1D0D /* Resources */,
+				BCB1C920705EB70E1996D1E0 /* [CP] Embed Pods Frameworks */,
+				9F1C84682470456A1A90C040 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143F4A001E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitUITests" */;
 			buildPhases = (
+				79424ECAE1AE860FD7C2A251 /* [CP] Check Pods Manifest.lock */,
 				143F49ED1E329E28006E1D0D /* Sources */,
 				143F49EE1E329E28006E1D0D /* Frameworks */,
 				143F49EF1E329E28006E1D0D /* Resources */,
+				02491654A62F2BAD64C3A7D3 /* [CP] Embed Pods Frameworks */,
+				83B470C5F850EFA225273F59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +343,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0194B37455B216148AF73EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		02491654A62F2BAD64C3A7D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexSpeechKitUITests/Pods-YandexSpeechKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		061273F8B757B61523E814BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexSpeechKit/Pods-YandexSpeechKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DFECA9DF39D520D2A292DF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79424ECAE1AE860FD7C2A251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83B470C5F850EFA225273F59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexSpeechKitUITests/Pods-YandexSpeechKitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1C84682470456A1A90C040 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexSpeechKitTests/Pods-YandexSpeechKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB1C920705EB70E1996D1E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexSpeechKitTests/Pods-YandexSpeechKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D86B5CF4DFE967FE0D7A7273 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexSpeechKit/Pods-YandexSpeechKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		143F49CE1E329E28006E1D0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				143F49D81E329E28006E1D0D /* ViewController.swift in Sources */,
+				14A54F941E32A11100D74D76 /* YandexSpeechService.swift in Sources */,
+				14A54F971E32AA4D00D74D76 /* RecognizerViewController.swift in Sources */,
 				143F49D61E329E28006E1D0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +638,7 @@
 		};
 		143F49FB1E329E28006E1D0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F937E07C3F770D6AF9CB87 /* Pods-YandexSpeechKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GT4WSWF94H;
@@ -420,12 +646,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YandexSpeechKit/YandexSpeechKit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		143F49FC1E329E28006E1D0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2EC9BA500BC56540D07A2F /* Pods-YandexSpeechKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GT4WSWF94H;
@@ -433,12 +661,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kyralesov.YandexSpeechKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/YandexSpeechKit/YandexSpeechKit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		143F49FE1E329E28006E1D0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D2EA9C2E490F0CD7F74E7E /* Pods-YandexSpeechKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +684,7 @@
 		};
 		143F49FF1E329E28006E1D0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFE99400EB3ADCC435E19B6 /* Pods-YandexSpeechKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +700,7 @@
 		};
 		143F4A011E329E28006E1D0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE31AB4B946894F3ADC6989 /* Pods-YandexSpeechKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GT4WSWF94H;
@@ -483,6 +715,7 @@
 		};
 		143F4A021E329E28006E1D0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC4489BCC6E9AC21AFEA27B /* Pods-YandexSpeechKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GT4WSWF94H;
@@ -514,6 +747,7 @@
 				143F49FC1E329E28006E1D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		143F49FD1E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +756,7 @@
 				143F49FF1E329E28006E1D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		143F4A001E329E28006E1D0D /* Build configuration list for PBXNativeTarget "YandexSpeechKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +765,7 @@
 				143F4A021E329E28006E1D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
