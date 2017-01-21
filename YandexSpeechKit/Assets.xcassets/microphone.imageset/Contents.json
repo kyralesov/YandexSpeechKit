@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "microphone-outlined-circular-button-3.png",
+      "filename" : "microphone-voice-tool-circular-black-button.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "microphone-outlined-circular-button-4.png",
+      "filename" : "microphone-voice-tool-circular-black-button-2.png",
       "scale" : "2x"
     },
     {
@@ -18,5 +18,8 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
   }
 }

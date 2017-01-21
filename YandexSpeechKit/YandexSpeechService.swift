@@ -19,7 +19,6 @@ protocol SpeechServiceDelegate: class{
     func didReceivePartialResults(results: YSKRecognition!)
     func didStartRecording()
     func didFinishRecording()
-    
 }
 
 class YandexSpeechService: NSObject {
@@ -55,7 +54,7 @@ class YandexSpeechService: NSObject {
     private func configure() {
         YSKSpeechKit.sharedInstance().configure(withAPIKey: YandexSpeechService.apiKey)
         // [OPTIONAL] Set SpeechKit log level
-        YSKSpeechKit.sharedInstance().setLogLevel(YSKLogLevel(YSKLogLevelDebug))
+        YSKSpeechKit.sharedInstance().setLogLevel(YSKLogLevel(YSKLogLevelError))
         // [OPTIONAL] Set YSKSpeechKit parameters
         //YSKSpeechKit.sharedInstance().setParameter(YSKEncodingQuality, withValue: "8")
         YSKSpeechKit.sharedInstance().setParameter(YSKDisableAntimat, withValue: "false")
@@ -92,8 +91,24 @@ extension YandexSpeechService: YSKRecognizerDelegate {
         self.delegate.didStartRecording()
     }
     //
+    func recognizerDidDetectSpeech(_ recognizer: YSKRecognizer!) {
+        
+    }
+    //
+    func recognizerDidDetectSpeechEnd(_ recognizer: YSKRecognizer!) {
+        
+    }
+    //
     func recognizerDidFinishRecording(_ recognizer: YSKRecognizer!) {
         self.delegate.didFinishRecording()
+    }
+    //
+    func recognizer(_ recognizer: YSKRecognizer!, didRecordSound data: Data!) {
+        
+    }
+    //
+    func recognizer(_ recognizer: YSKRecognizer!, didUpdatePower power: Float) {
+        
     }
     //
     func recognizer(_ recognizer: YSKRecognizer!, didReceivePartialResults results: YSKRecognition!, withEndOfUtterance endOfUtterance: Bool) {
@@ -108,11 +123,8 @@ extension YandexSpeechService: YSKRecognizerDelegate {
         self.recognizer = nil
     }
     //
-    func recognizer(_ recognizer: YSKRecognizer!, didUpdatePower power: Float) {
-        
-    }
-    //
     func recognizer(_ recognizer: YSKRecognizer!, didFailWithError error: Error!) {
+        // Error handling here
         print(error.localizedDescription)
     }
 }

@@ -15,7 +15,6 @@ class RecognizerViewController: UIViewController {
     
     // MARK: Outlets
     @IBOutlet weak var textView: UITextView!
-    @IBOutlet weak var spinner: UIActivityIndicatorView!
     @IBOutlet weak var button: UIButton!
     
     var text: String {
@@ -28,43 +27,64 @@ class RecognizerViewController: UIViewController {
     }
     
     override func awakeFromNib() {
+        super.awakeFromNib()
+        // Init YandexSpeechService
         speechService = YandexSpeechService(with: .general)
         speechService?.delegate = self
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        button.tintColor = UIColor.blue
+        
     }
-
+    
     @IBAction func recordButtonTap(_ sender: UIButton) {
-        button.isEnabled = false
-        spinner.startAnimating()
+        
         speechService?.startRecord()
+        startAnimateButton()
+        
     }
-
+    
+    fileprivate func startAnimateButton() {
+        // Animate button
+        UIView.animate(withDuration: 0.7, delay: 0.0,
+                       options: [.repeat, .autoreverse, .allowUserInteraction, .beginFromCurrentState],
+                       animations: {[weak self] in
+                        self?.button.layer.opacity = 0.5
+        }, completion: {[weak self] sussecc in
+            self?.button.layer.opacity = 1.0
+        })
+    }
+    
+    fileprivate func stopAnimateButton() {
+        self.button.layer.removeAllAnimations()
+    }
 }
 
 // MARK : SpeechServiceDelegate
 extension RecognizerViewController: SpeechServiceDelegate {
+    
     internal func didFinishRecording() {
-        spinner.stopAnimating()
-        button.isEnabled = true
+        self.stopAnimateButton()
     }
-
+    
     internal func didStartRecording() {
         self.text = ""
     }
     
     internal func didReceivePartialResults(results: YSKRecognition!) {
-        text = results.bestResultText
+        let bestResult = results.bestResultText! == "" ? "none" : results.bestResultText!
+        text = "Best result: " + bestResult
     }
-
+    
     internal func didCompleteWithResults(results: YSKRecognition!) {
         let array = results.hypotheses.map {($0 as! YSKRecognitionHypothesis).normalized!}
-        text = array.joined(separator: "; ")
         
+        let optionals = array.count == 0 ? "none" : array.joined(separator: "; ")
+        let bestResult = results.bestResultText! == "" ? "none" : results.bestResultText!
+        text = "Best result: " + bestResult + "\n\nOptions: "  + optionals
     }
     
 }
